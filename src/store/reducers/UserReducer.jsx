@@ -248,7 +248,6 @@ export const UserSlice = createSlice({
 
     }
 })
-
 export default UserSlice.reducer;
 
-export const {userdelete} = UserSlice.actions;
+export const {userdelete} = UserSlice.actions; 
